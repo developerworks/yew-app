@@ -1,0 +1,12 @@
+{
+	debug
+	servers :443 {
+		protocol {
+			experimental_http3
+		}
+	}
+}
+
+localhost:443 {
+	file_server browse
+}
